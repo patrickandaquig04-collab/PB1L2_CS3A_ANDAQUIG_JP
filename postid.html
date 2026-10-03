@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Social Media</title>
+    <link rel="stylesheet" href="postid.css">
+</head>
+<body>
+    <div class="container">
+        <div>
+            <h1>Social Media Post</h1>
+            <p>Share your Thoughts</p>
+            
+            <!-- This is for username -->
+            <label for="username">Username</label>
+            <br>
+            <input type="text" id="username" placeholder="Enter your username" required />
+            <br>
+
+            <!-- for the text box -->
+            <label for="post">Caption</label>
+            <br>
+            <textarea rows="4" id="textbox" cols="40" placeholder="write here your caption"></textarea>
+            <button onclick="enter()">Add Post</button>
+
+            <!-- original output -->
+            <h3>Original:</h3>
+            <p id="original"></p>
+
+            <!-- encrypted output -->
+            <h3>Encrypted:</h3>
+            <p id="encrypted"></p>
+        </div>
+    </div>
+
+    <!-- for the cloudflare -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/4.2.0/crypto-js.min.js"></script>
+    <script src="postid.js"></script>
+
+</body>
+</html>

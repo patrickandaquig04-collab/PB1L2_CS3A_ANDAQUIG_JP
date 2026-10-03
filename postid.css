@@ -1,0 +1,57 @@
+/* for the body */
+body {
+    font-family: Arial;
+    background: #f2f2f2;
+}
+/* for the label */
+label {
+    font-weight: bold;
+    font-size: 14px;
+    margin-top: 10px; 
+    margin-bottom: 5px;
+    color: #333;
+}
+/* for the h1 */
+h1 {
+    text-align: center;
+    font-size: 30px;
+    color: #333;
+    margin-bottom: 15px;
+}
+/* for the div container class */
+.container {
+    width: 400px;
+    margin: 40px auto;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+}
+/* for the p/paragraph */
+p {
+    font-size: 16px;
+    color: #333;
+    margin: 10px 0;
+    line-height: 1.5;
+    text-align: left;
+}
+/* for the input and textarea */
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    box-sizing: border-box; 
+}
+/* for the design in button */
+button {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    background: blue;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+
